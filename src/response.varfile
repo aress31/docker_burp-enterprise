@@ -1,0 +1,20 @@
+# install4j response file for Burp Suite Enterprise Edition 2022.4-9712
+beuser=burpsuite
+beuserandgroup=burpsuite\:burpsuite
+dataDirectory=/var/lib/BurpSuiteEnterpriseEdition
+databaseBackupsDirectory=/var/lib/BurpSuiteEnterpriseEdition
+dbType=h2
+escapedDataDir=/var/lib/BurpSuiteEnterpriseEdition
+escapedInstallationDir=/opt/burpsuite_enterprise
+jreHome=/opt/burpsuite_enterprise/jre
+logsDirectory=/var/log/BurpSuiteEnterpriseEdition
+platformScriptSuffix=sh
+sys.adminRights$Boolean=true
+sys.component.agent$Boolean=true
+sys.component.db$Boolean=true
+sys.component.enterprise$Boolean=true
+sys.component.web$Boolean=true
+sys.installationDir=/opt/burpsuite_enterprise
+sys.languageId=en
+sys.programGroupDisabled$Boolean=true
+webserver_port$Integer=8080
